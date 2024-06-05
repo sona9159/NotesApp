@@ -1,0 +1,79 @@
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Adjust the gap between notes as needed */
+}
+
+.note {
+  flex: 1 1 calc(50% - 10px);  
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #1d1a1a;
+  border-radius: 5px;
+  position: relative;
+  background-color: #f8f9fa ;
+}
+.note:hover
+{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  border-radius: 5px;
+  margin: 5px;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn img {
+  width: 21px;
+  height: 21px;
+}
+
+.btn:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #ececec;
+}
+
+.dropdown {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+}
+.dropdown img{
+  width: 15px;
+  height: 15px;
+}
+
+.dropdown:hover
+{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+.dropdown-menu div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f0f0f0;
+}

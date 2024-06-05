@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+todolistapp-
+will need to add the notes
+display all the added notes
+update the notes
+add a reminder
+search the note
+remove any note
+
+=>
+home page will show 
+the button to add the notes and display all the notes
+with notes option to edit or delete the notes
+add a reminder
+search
+
+=>
+component 
+addNote
+EditNote
+DeleteNote
+SearchNote
+AddReminder

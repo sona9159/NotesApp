@@ -1,0 +1,21 @@
+<h1>All the notes!</h1>
+<div class="notes-container">
+    <div *ngFor="let note of notelist" class="note">
+      <button class="dropdown" (click)="dropdown(note)">
+        <img src="../../assets/icons/dot.png">
+      </button>
+      <div *ngIf="pinnedStatus && selectedId===note._id" class="dropdown-menu">
+        <div (click)="pinnedNote(note)">  
+            {{ note.pinned ? 'UnPin' : 'Pin' }}
+        </div>
+      </div>      
+      <pre>{{ note.notes }}</pre>
+      <button class="btn btn-primary" (click)="deleteNote(note)">
+        <img src="../../assets/icons/remove.png">
+      </button>
+      <button class="btn btn-secondary" (click)="editNote(note._id)">
+        <img src="../../assets/icons/edit.png">
+      </button>
+    </div>
+  </div>
+  

@@ -1,0 +1,39 @@
+.sidebar
+{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    position:fixed;
+    width: 240px;
+    
+}
+nav
+{
+    width: 100%;
+}
+.sidebar nav ul
+{
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar nav ul li
+{
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    margin: 0%;
+}
+.sidebar nav ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    width: 100%;
+    padding: 10px; 
+    box-sizing: border-box;   
+}
+.sidebar nav ul li a:hover
+{
+    text-decoration: none;
+    background-color: darkgray;
+}

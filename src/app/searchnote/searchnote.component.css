@@ -1,0 +1,133 @@
+textarea
+{
+    width: 500px;
+    height: 100px;
+    background-color: gainsboro;
+    padding: 10px;
+   font-family: monospace;
+   font-size: 16px;
+   border-radius: 5px;
+   border: 2px solid;
+}
+.textarea-icon {
+  display: block;
+  margin: 0 auto;
+  width: 24px;  /* Adjust the width of the icon */
+  height: 24px; /* Adjust the height of the icon */
+}
+
+.textarea-container {
+  position: relative;
+  display: inline-block;
+}
+
+#myTextarea {
+  display: block;
+  /* Adjust space between textarea and icon */
+}
+
+.textarea-icon {
+  display: block;
+  margin: 0 auto; /* Center the icon under the textarea */
+}
+
+/* .SearchResultnote {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    list-style: none;
+  }
+  
+  .SearchResultnote li {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .SearchResultnote {
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    list-style: none;
+  }
+  
+  .SearchResultnote li {
+    font-size: 18px;
+    color: #333;
+  }
+ 
+  .SearchResultnote {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    list-style: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .SearchResultnote:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SearchResultnote li {
+    font-size: 18px;
+    color: #333;
+  }
+
+   body {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .SearchResultnote {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px;
+    list-style: none;
+  }
+  
+  .SearchResultnote li {
+    font-size: 18px;
+    color: #fff;
+  }
+  */
+  .SearchResultnote {
+    background: #faf3e0;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  list-style: none;
+  font-family: 'Poppins', sans-serif; /* Use Google Fonts or any other trendy font */
+  letter-spacing: 0.5px;
+  }
+  .SearchResultnote li {
+    font-size: 18px;
+    color: #333;
+  }
+  .btn {
+    border-radius: 5px;
+    margin: 5px;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn img {
+    width: 21px;
+    height: 21px;
+  }
+  
+  .btn:hover {
+    width: 50px;
+    height: 50px;
+    background-color: #ececec;
+  }

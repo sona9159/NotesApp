@@ -1,0 +1,12 @@
+<h1>Pinned Notes</h1>
+<div *ngFor="let note of pinnedNotes" class="container">
+    <div class="notes">
+        <pre>{{note.notes}}</pre>
+        <button class="btn btn-primary" (click)="deleteNote(note)">
+            <img src="../../assets/icons/remove.png">
+          </button>
+          <button class="btn btn-secondary" (click)="editNote(note._id)">
+            <img src="../../assets/icons/edit.png">
+          </button>
+    </div>
+</div>

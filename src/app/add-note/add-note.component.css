@@ -1,0 +1,34 @@
+textarea
+{
+    width: 1200px;
+    height: 100px;
+    background-color: gainsboro;
+    padding: 10px;
+   font-family: monospace;
+   font-size: 16px;
+   border-radius: 5px;
+   border: 2px solid;
+}
+.addButton
+{
+    font-family: monospace;
+   font-size: 18px;
+    padding: 10px;
+    height:fit-content;
+    width: fit-content;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #3b7bf6;
+    color: white;
+}
+.addButton:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.addButton:focus
+{
+    background-color: rgb(12, 3, 3);
+    color: white;
+}

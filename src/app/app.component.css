@@ -1,0 +1,19 @@
+h1
+{
+    font-family:'Times New Roman', Times, serif;
+}
+.app-container
+{
+    display: flex;
+    height: 100vh;
+}
+.app-nav
+{
+    width: 250px;
+}
+.content
+{
+    flex: 1;
+    padding: 20px;
+    padding-left: 270px;
+}

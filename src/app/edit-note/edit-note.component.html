@@ -1,0 +1,7 @@
+<div *ngIf="note">
+    <form (ngSubmit)="editNote()">
+        <textarea placeholder="Add your notes here..!" name="note" [(ngModel)]="note.notes">
+        </textarea>
+        <button class="editButton" type="submit">save</button>
+    </form>        
+</div>
